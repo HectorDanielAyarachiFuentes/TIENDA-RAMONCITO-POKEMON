@@ -171,3 +171,39 @@ body.dark-mode #modoBoton {
     background-color: #FFCB05; /* Cambiar el color de fondo del botón de modo oscuro en modo oscuro */
     color: #333; /* Cambiar el color del texto del botón de modo oscuro en modo oscuro */
 }
+/* PICACHU HTML ATENCION!!!/*
+/* Estilo para los divs de las tarjetas de Pokémon */
+.pokemon-card {
+    border: 1px solid #253B80; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interior */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    text-align: center; /* Alineación de texto en el centro */
+}
+
+/* Estilo para la tarjeta especial con degradado de colores Pokémon */
+.special-pokemon-card {
+    background: linear-gradient(45deg, #FF5959, #FFCB05, #253B80); /* Degradado de colores Pokémon */
+    border: 1px solid #253B80; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interior */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    text-align: center; /* Alineación de texto en el centro */
+}
+
+.pokemon-card img {
+    max-width: 100%; /* Imágenes ajustadas al ancho de la tarjeta */
+    height: auto; /* Altura automática */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.pokemon-card h2 {
+    color: #253B80; /* Texto azul para el título */
+    font-size: 24px; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espacio entre el título y el párrafo */
+}
+
+.pokemon-card p {
+    color: #333; /* Texto negro */
+    font-size: 16px; /* Tamaño de fuente para el texto */
+}
